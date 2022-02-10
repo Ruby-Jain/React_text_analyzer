@@ -1,0 +1,20 @@
+.my-3>textarea{
+  border: 7px solid black;
+  border-radius: 2rem;
+}
+.titlecolor{
+  color: rgb(255, 0, 98);
+  text-align: center;
+  letter-spacing: 0.6rem;
+  font-family:'Franklin Gothic Medium';
+  font-weight: bolder;
+  justify-content:space-around;
+  font-size: 3.5rem;
+}
+.form-label{
+  color: rgb(255, 0, 149);
+  font-family:'Franklin Gothic Medium';
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 0.4rem;
+}

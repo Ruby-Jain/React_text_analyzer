@@ -1,0 +1,6 @@
+.container{
+    background-color: rgb(220, 130, 255);
+}
+button{
+    box-shadow: 0 7px 2px 0 rgb(0, 0, 0), 0 7px 5px 0 rgb(253, 253, 253);
+}
