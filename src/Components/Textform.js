@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Textform.css';
+import {Buttons} from './Buttons.js';
+
 
 export default function Textform(props) {
     const [text, settext] = useState("");
@@ -62,6 +64,7 @@ export default function Textform(props) {
                     <button onClick={reset} className="btn btn-primary my-2 mx-2">Reset</button>
                     <button onClick={handlecopy} className="btn btn-primary my-3 mx-2">Copy Text</button>
                     <button onClick={removeextraspace} className="btn btn-primary my-3 mx-2">Remove Extra Space</button>
+                    <Buttons />
                     {/* <div className="container">
                         <button onClick={togglestyle} type="button" class="btn btn-primary">{btntext}</button>
                     </div> */}

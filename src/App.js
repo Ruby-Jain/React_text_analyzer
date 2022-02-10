@@ -2,7 +2,6 @@ import './App.css';
 import TextForm from './Components/Textform';
 import Navbar from './Components/Navbar1';
 import React, { useState } from 'react';
-import Button from './Components/Buttons';
 
 
 function App() {
@@ -26,7 +25,7 @@ function App() {
 
       <div className="container my-5">
         <TextForm title="Text Analyzer" mode={mode} heading="Enter the text to Analyze" />
-        <Button />
+        
       </div>
     </>
   );
