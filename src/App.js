@@ -15,7 +15,7 @@ function App() {
     }
     else {
       setmode('light');
-      document.body.style.backgroundColor = 'gold';
+      document.body.style.backgroundColor = 'white';
       setbtntext("Enable Dark Mode");
     }
   }
