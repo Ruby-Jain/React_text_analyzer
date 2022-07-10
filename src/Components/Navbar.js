@@ -1,7 +1,7 @@
 import React from 'react';
-import './Navbar1.css';
+import './Navbar.css';
 
-export default function Navbar1(props) {
+export default function Navbar(props) {
     
 
     return (
