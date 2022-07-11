@@ -74,7 +74,7 @@ export default function Textform(props) {
                     </div> */}
                 </div>
                 <div className="container my-3">
-                    <h5>{text.trim().split('').length} Characters {text.split(' ').filter((element) => { return element.length !== 0 }).length} Words</h5>
+                    <h5>{text.split('').filter((element) => { return element.length !== 0 }).length} Characters and {text.split(' ').filter((element) => { return element.length !== 0 }).length} Words</h5>
                     <h2>Your Text Preview Here</h2>
                     <p>{text}</p>
                 </div>
